@@ -43,9 +43,9 @@ The following figures were generated using **twalkexample.jl** for julia and pyt
 |--|--|
 |![Julia energy history](./juliaenergy.png) |![Python energy history](./pythonenergy.png)|
 
-|![Julia scatter plot of first and third dimensions](./juliascatter.png)| ![Python scatter plot of first and third dimensions](./pythonscatter.png)|
+|![Julia scatter plot of first and third dimensions](./juliascatter.png) |![Python scatter plot of first and third dimensions](./pythonscatter.png)|
 
-|![Julia histogram of fourth dimension](./juliahist.png)| ![Python histogram of fourth dimension](./pythonhist.png)
+|![Julia histogram of fourth dimension](./juliahist.png) |![Python histogram of fourth dimension](./pythonhist.png)
 
 ## Diferencies between Julia and Python implementations
 
