@@ -1,0 +1,4 @@
+name = "JTwalk"
+uuid = "8bab3a8c-23d6-448f-9af3-e8bf83c5bf13"
+authors = ["Nicolás Kuschinski"]
+version = "0.1.0"
