@@ -13,7 +13,7 @@ To install this package:
 - If installing from a git repository simply use the standard Julia installation procedure:
     
     ```
-    U sing Pkg
+    using Pkg
     Pkg.add("name of git repo")
     ```
     
