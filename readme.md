@@ -39,11 +39,11 @@ For simulating the distribution as it is written in the **twalkexample.jl** file
 
 The following figures were generated using **twalkexample.jl** for julia and pytwalktutorial.py for Python. The figures are offered as evidence that the Julia and Python implementations simulated from the same distribution (small differences between results can be attributed to the random nature of MCMC chains).
 
-|Julia|Python|
-|--|--|
-|![Julia energy history](./juliaenergy.png) |![Python energy history](./pythonenergy.png)|
-|![Julia scatter plot of first and third dimensions](./juliascatter.png) |![Python scatter plot of first and third dimensions](./pythonscatter.png)|
-|![Julia histogram of fourth dimension](./juliahist.png) |![Python histogram of fourth dimension](./pythonhist.png)
+|Julia                                                                    |Python                                                                     |
+|--                                                                       |--                                                                         |
+|![Julia energy history](./juliaenergy.png)                               |![Python energy history](./pythonenergy.png)                               |
+|![Julia scatter plot of first and third dimensions](./juliascatter.png)  |![Python scatter plot of first and third dimensions](./pythonscatter.png)  |
+|![Julia histogram of fourth dimension](./juliahist.png)                  |![Python histogram of fourth dimension](./pythonhist.png)                  |
 
 ## Diferencies between Julia and Python implementations
 
@@ -65,4 +65,4 @@ For question regarding this implementation email me at nicolas.kuschinski@mat.uc
 
 ## Bibliography
 
-Christen, J. A. and Fox, C. (2010). “A general purpose sampling algorithm for con-tinuous distributions (the t-walk).”Bayesian Analisis, 4(2): 263–282.
+Christen, J. A. and Fox, C. (2010). “A general purpose sampling algorithm for continuous distributions (the t-walk).”Bayesian Analisis, 4(2): 263–282.
