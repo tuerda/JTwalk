@@ -45,7 +45,7 @@ The following figures were generated using **twalkexample.jl** for julia and pyt
 |![Julia scatter plot of first and third dimensions](./juliascatter.png)  |![Python scatter plot of first and third dimensions](./pythonscatter.png)  |
 |![Julia histogram of fourth dimension](./juliahist.png)                  |![Python histogram of fourth dimension](./pythonhist.png)                  |
 
-## Diferencies between Julia and Python implementations
+## Differences between Julia and Python implementations
 
 Differences between jtwalk and Pytwalk version
 
