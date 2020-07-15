@@ -8,9 +8,9 @@ Some optimization was done to improve performance in Julia. See the comments **i
 
 ## Installation
 
-To install this package:
+Simply use the standard Julia installation procedure:
 
-- Simply use the standard Julia installation procedure:
+From within Julia run:
     
     ```
     using Pkg
