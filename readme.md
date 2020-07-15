@@ -10,18 +10,13 @@ Some optimization was done to improve performance in Julia. See the comments **i
 
 To install this package:
 
-- If installing from a git repository simply use the standard Julia installation procedure:
+- Simply use the standard Julia installation procedure:
     
     ```
     using Pkg
-    Pkg.add("name of git repo")
+    Pkg.add(Packagespec(url="https://github.com/tuerda/JTwalk"))
     ```
     
-- If installing from hard drive, add the location of this package to the Julia path. This is done by editing the autostart file (usually∼/.julia/config/startup.jl):
-    ```
-    push!(LOADPATH,"path to JTwalk package")
-    ```
-
 ## Use and examples
 
 This package attempts to closely imitate the interface for the **Python T-Walk** package. It exports a mutable structure, called **TWalk** and a function **jtwalk** to initialize it. It also exports functions **Run!**, which performs a full run, and onemove, which is used to obtain a single move of the twalk. 
