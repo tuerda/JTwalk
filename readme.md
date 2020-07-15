@@ -25,7 +25,6 @@ When using **Run!** two output chains are stored into the **Output** and **Outpu
 
 This package ships with the file **twalkexample.jl**, which shows the syntax and usage. **twalkexample.jl** shows examples using the **Plots.jl** plotting library but the package is not linked to this library and other plotting libraries can be used.
 
-
 ## Performance
 
 Performance of the T-Walk is closely related to the evaluation of the energy function. In general, it is expected, in most circumstances, that the Julia version of T-Walk should be significantly faster than the **Python** version when working on the the same objective functions with similar coding. Figures 1, 2 and 3 were produced with **PyTwalk** using **matplotlib** and **JTwalk** using **Plots.jl**.
