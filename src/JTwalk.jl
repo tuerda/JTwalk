@@ -80,8 +80,7 @@ module JTwalk
     end
 
     #Initializer All arguments are keywords
-    function jtwalk(;n::Int64, U=x->x[1]^2/2, Supp=x->true, t=-1, u=0, up=0, w=x->0., ww=[0., 0.4918, 0.4918, 0.0082+0.0082, 0.0], aw=1.5, at=6., n1phi=4.)
-        #Careful the Hop move does ~ work!
+    function jtwalk(;n::Int64, U=x->x[1]^2/2, Supp=x->true, t=-1, u=0, up=0, w=x->0., ww=[0., 0.4918, 0.4918, 0.0082, 0.0082], aw=1.5, at=6., n1phi=4.)
         if t>0  #Penalized likelihood
             LikelihoodEnergy=u
             PriorEnergy=w
@@ -399,7 +398,7 @@ module JTwalk
         nphi=twalk.nphi
         twalk.sigma=maximum(twalk.phi .* abs(xp-x))/3
         if (nphi>0)
-            return(nphi/2.0)*log(2*pi) + nphi*log(twalk.sigma)+0.5*SqrNorm(h-xp)/(twalk.sigma^2)
+            return(nphi/2.0)*log(2*pi) + nphi*log(twalk.sigma)+0.5*SqrNorm(h-x)/(twalk.sigma^2)
         else
             return 0.0
         end
