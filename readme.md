@@ -14,7 +14,7 @@ From within Julia run:
     
     ```
     using Pkg
-    Pkg.add(Packagespec(url="https://github.com/tuerda/JTwalk"))
+    Pkg.add(Pkg.PackageSpec(url="https://github.com/tuerda/JTwalk"))
     ```
     
 ## Use and examples
