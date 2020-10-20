@@ -380,7 +380,7 @@ module JTwalk
     end
 
     #used by the hop kernel
-    function SimHop(twalk::Twalk,h,x::Array{Float64,1},xp::Array{Float64,1})
+    function SimHop(twalk::Twalk,x::Array{Float64,1},xp::Array{Float64,1})
         n=twalk.n
         twalk.phi=rand(n).<twalk.pphi
         twalk.nphi=sum(twalk.phi)
