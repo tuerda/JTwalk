@@ -388,7 +388,7 @@ module JTwalk
         rt=copy(x)
         for i in 1:n
             if twalk.phi[i]
-                rt[i]=x[i]+twalk.sigma*rnorm()
+                rt[i]=x[i]+twalk.sigma*randn()
             end
         end
         return rt
