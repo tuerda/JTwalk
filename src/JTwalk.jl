@@ -394,7 +394,7 @@ module JTwalk
         return rt
     end
 
-    function GhopU(twalk::Twalk,h,x::Array{Float64,1},xp::Array{Float64,1})
+    function GHopU(twalk::Twalk,h,x::Array{Float64,1},xp::Array{Float64,1})
         nphi=twalk.nphi
         twalk.sigma=maximum(twalk.phi .* abs.(xp-x))/3
         if (nphi>0)
