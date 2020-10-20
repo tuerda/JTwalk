@@ -300,8 +300,8 @@ module JTwalk
                 up_prop=up
                 if(Supp(y) & (all(y.!=xp)))
                     u_prop=U(y)
-                    W1=GhopU(twalk,y,x,xp)
-                    W2=GhopU(twalk,x,y,xp)
+                    W1=GHopU(twalk,y,x,xp)
+                    W2=GHopU(twalk,x,y,xp)
                     A=exp((u-u_prop)+(W1-W2))
                 else
                     u_prop=0.0
