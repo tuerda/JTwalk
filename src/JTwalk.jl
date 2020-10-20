@@ -384,7 +384,7 @@ module JTwalk
         n=twalk.n
         twalk.phi=rand(n).<twalk.pphi
         twalk.nphi=sum(twalk.phi)
-        twalk.sigma=maximum(twalk.phi .* abs(xp-x))/3
+        twalk.sigma=maximum(twalk.phi .* abs.(xp-x))/3
         rt=copy(x)
         for i in 1:n
             if twalk.phi[i]
@@ -396,7 +396,7 @@ module JTwalk
 
     function GhopU(twalk::Twalk,h,x::Array{Float64,1},xp::Array{Float64,1})
         nphi=twalk.nphi
-        twalk.sigma=maximum(twalk.phi .* abs(xp-x))/3
+        twalk.sigma=maximum(twalk.phi .* abs.(xp-x))/3
         if (nphi>0)
             return(nphi/2.0)*log(2*pi) + nphi*log(twalk.sigma)+0.5*SqrNorm(h-x)/(twalk.sigma^2)
         else
